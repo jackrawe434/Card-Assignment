@@ -86,5 +86,11 @@
   <ItemGroup>
     <None Include="Resources\shotgun-reload-old_school-RA_The_Sun_God-580332022.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shotgun_Blast-Jim_Rogers-1914772763.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bomb-SoundBible.com-891110113.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -63,6 +63,15 @@ namespace Card_Assignment.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Bomb {
+            get {
+                return ResourceManager.GetStream("Bomb", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream Button {
             get {
                 return ResourceManager.GetStream("Button", resourceCulture);
@@ -75,6 +84,15 @@ namespace Card_Assignment.Properties {
         internal static System.IO.UnmanagedMemoryStream Reload {
             get {
                 return ResourceManager.GetStream("Reload", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Shoot {
+            get {
+                return ResourceManager.GetStream("Shoot", resourceCulture);
             }
         }
     }
